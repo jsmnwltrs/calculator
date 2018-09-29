@@ -1,22 +1,7 @@
-const printToDom = (stringToPrint, divId) => {
-    document.getElementById(divId).innerHTML += stringToPrint;
-};
+import {printToDom} from './helpers/util.js';
+import {multiply, divide, add, subtract} from './helpers/math.js';
 
-const multiply = (n1, n2) => {
-    return n1 * n2;
-};
 
-const divide = (n1, n2) => {
-    return n1 / n2;
-};
-
-const add = (n1, n2) => {
-    return n1 + n2;
-};
-
-const subtract = (n1, n2) => {
-    return n1 - n2;
-};
 
 const calculate = (num1, num2, mathType) => {
     let answer = 0;
