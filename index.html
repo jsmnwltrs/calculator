@@ -8,67 +8,66 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Calculator</h1>
+
     <div class="calculator col-4 offset-md-4">
-        <div class="row">
+        <div class="row result">
             <div id="result"></div>
         </div>
         <div class="row">
             <div class="col">
-                <button type="button" class="btn btn-secondary" id="sevenButton">7</button>
+                <button type="button" class="col btn btn-secondary" id="sevenButton">7</button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-secondary" id="eightButton">8</button>
+                <button type="button" class="col btn btn-secondary" id="eightButton">8</button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-secondary" id="nineButton">9</button>
+                <button type="button" class="col btn btn-secondary" id="nineButton">9</button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-primary">/</button>
+                <button type="button" class="col btn btn-primary" id="divideButton">/</button>
             </div>
         </div>
         <div class="row">
                 <div class="col">
-                    <button type="button" class="btn btn-secondary" id="fourButton">4</button>
+                    <button type="button" class="col btn btn-secondary" id="fourButton">4</button>
                 </div>
                 <div class="col">
-                    <button type="button" class="btn btn-secondary" id="fiveButton">5</button>
+                    <button type="button" class="col btn btn-secondary" id="fiveButton">5</button>
                 </div>
                 <div class="col">
-                    <button type="button" class="btn btn-secondary" id="sixButton">6</button>
+                    <button type="button" class="col btn btn-secondary" id="sixButton">6</button>
                 </div>
                 <div class="col">
-                    <button type="button" class="btn btn-primary" id="multiplyButton">*</button>
+                    <button type="button" class="col btn btn-primary" id="multiplyButton">*</button>
                 </div>
             </div>
             <div class="row">
                     <div class="col">
-                        <button type="button" class="btn btn-secondary" id="oneButton">1</button>
+                        <button type="button" class="col btn btn-secondary" id="oneButton">1</button>
                     </div>
                     <div class="col">
-                        <button type="button" class="btn btn-secondary" id="twoButton">2</button>
+                        <button type="button" class="col btn btn-secondary" id="twoButton">2</button>
                     </div>
                     <div class="col">
-                        <button type="button" class="btn btn-secondary" id="threeButton">3</button>
+                        <button type="button" class="col btn btn-secondary" id="threeButton">3</button>
                     </div>
                     <div class="col">
-                        <button type="button" class="btn btn-primary" id="subtractButton">-</button>
+                        <button type="button" class="col btn btn-primary" id="subtractButton">-</button>
                     </div>
                 </div>
                 <div class="row">
                         <div class="col">
-                            <button type="button" class="btn btn-secondary" id="zeroButton">0</button>
+                            <button type="button" class="col btn btn-secondary" id="zeroButton">0</button>
                         </div>
                         <div class="col-6">
-                            <button type="button" class="btn btn-danger" id="equalButton">=</button>
+                            <button type="button" class="col btn btn-danger" id="equalButton">=</button>
                         </div>
                         <div class="col">
-                            <button type="button" class="btn btn-secondary" id="addButton">+</button>
+                            <button type="button" class="col btn btn-secondary" id="addButton">+</button>
                         </div>
                     </div>
     </div>
-
-    <div id="result"></div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -76,7 +75,6 @@
     <script src="./javascripts/helpers/math.js" type="module"></script>
     <script src="./javascripts/helpers/util.js" type="module"></script>
     <script src="./javascripts/components/calculator.js" type="module"></script>
-    <script src="./javascripts/helpers/buttonEvents.js" type="module"></script>
     <script src="./javascripts/main.js" type="module"></script>
 </body>
 </html>

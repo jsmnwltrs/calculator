@@ -5,6 +5,6 @@ import attachEvents from './helpers/buttonEvents.js'
 const initializeApp = () => {
     attachEvents();
     initialDisplay();
-}
+};
 
 initializeApp();

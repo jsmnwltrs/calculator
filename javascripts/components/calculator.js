@@ -6,7 +6,7 @@ const calc = {
     secondNumber: '',
     mathType: '',
     display: ''
-}
+};
 
 const calculate = () => {
     let answer = 0;
@@ -31,16 +31,16 @@ setDisplay(answer);
 
 const setDisplay = (someNumber) => {
     calc.display = someNumber;
-    printToDom(calc.display, 'result')
-}
+    printToDom(calc.display, 'result');
+};
 
 const setMathType = (newMathType) => {
     calc.mathType = newMathType;
-}
+};
 
 const initialDisplay = () => {
-    printToDom(0, 'result')
-}
+    printToDom(0, 'result');
+};
 
 const addNumber = (num) => {
     if(calc.mathType === '') {
