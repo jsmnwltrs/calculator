@@ -1,3 +1,10 @@
-import {calculate} from './components/calculator.js'
+import {initialDisplay} from './components/calculator.js'
+import attachEvents from './helpers/buttonEvents.js'
 
-calculate(4, 2, 'subtract');
+
+const initializeApp = () => {
+    attachEvents();
+    initialDisplay();
+};
+
+initializeApp();
