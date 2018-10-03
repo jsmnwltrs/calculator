@@ -14,8 +14,8 @@ h1 {
 .result {
     background-color: white;
     border: 1px solid black;
-    max-width: 385px;
-    margin-left: 3px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .calculator {
