@@ -9,6 +9,7 @@ const threeButton = document.getElementById('threeButton');
 const fourButton = document.getElementById('fourButton');
 const fiveButton = document.getElementById('fiveButton');
 const sixButton = document.getElementById('sixButton');
+const zeroButton = document.getElementById('zeroButton');
 
 const divideButton = document.getElementById('divideButton');
 const multiplyButton = document.getElementById('multiplyButton');
@@ -88,6 +89,9 @@ const sixButtonEvent = () => {
     sixButton.addEventListener('click', addNumberCaller);
 };
 
+const zeroButtonEvent = () => {
+    zeroButton.addEventListener('click', addNumberCaller);
+};
 
 const attachEvents = () => {
     sevenButtonEvent();
@@ -104,6 +108,7 @@ const attachEvents = () => {
     addButtonEvent();
     subtractButtonEvent();
     multiplyButtonEvent();
+    zeroButtonEvent();
 }
 
 export default attachEvents;
